@@ -66,9 +66,14 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SearchPath.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
+<<<<<<< Updated upstream
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Thomas\Shader\ToonShader (2).shader" />
+=======
+    <Compile Include="Assets\Thiago\Torret.cs" />
+    <Compile Include="Assets\Thiago\AIPlayerDetector.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
