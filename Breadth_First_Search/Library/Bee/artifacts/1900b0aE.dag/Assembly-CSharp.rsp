@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Daniel/Menu/MainMenu.cs"
 "Assets/Daniel/Menu/SoundMenu.cs"
+"Assets/Daniel/Wave/FollowThePath.cs"
 "Assets/Daniel/Wave/WaveSpawner.cs"
 "Assets/Scripts/CubeEditorInEditMode.cs"
 "Assets/Scripts/GameManager.cs"
