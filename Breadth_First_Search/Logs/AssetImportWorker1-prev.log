@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'pt' Physical Memory: 16187 MB
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'pt' Physical Memory: 16313 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/aluno/Documents/GitHub/Tower-Defense-game/Breadth_First_Search
+C:/Users/firel/Downloads/tower defense bfs/Tower-Defense-game/Breadth_First_Search
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50722
-Successfully changed project path to: C:/Users/aluno/Documents/GitHub/Tower-Defense-game/Breadth_First_Search
-C:/Users/aluno/Documents/GitHub/Tower-Defense-game/Breadth_First_Search
+51720
+Successfully changed project path to: C:/Users/firel/Downloads/tower defense bfs/Tower-Defense-game/Breadth_First_Search
+C:/Users/firel/Downloads/tower defense bfs/Tower-Defense-game/Breadth_First_Search
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/aluno/Documents/GitHub/Tower-Defense-game/Breadth_First_Search
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15240] Host "[IP] 172.18.0.208 [Port] 0 [Flags] 2 [Guid] 1372767559 [EditorId] 1372767559 [Version] 1048832 [Id] WindowsEditor(7,A2717) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15876] Host "[IP] 192.168.0.15 [Port] 0 [Flags] 2 [Guid] 3484230665 [EditorId] 3484230665 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9Q7JF8R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15240] Host "[IP] 172.18.0.208 [Port] 0 [Flags] 2 [Guid] 1372767559 [EditorId] 1372767559 [Version] 1048832 [Id] WindowsEditor(7,A2717) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15876] Host "[IP] 192.168.0.15 [Port] 0 [Flags] 2 [Guid] 3484230665 [EditorId] 3484230665 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9Q7JF8R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 48.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.19f1 (c9714fde33b6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/aluno/Documents/GitHub/Tower-Defense-game/Breadth_First_Search/Assets
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/firel/Downloads/tower defense bfs/Tower-Defense-game/Breadth_First_Search/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -64,90 +64,103 @@ Direct3D:
     VRAM:     4017 MB
     Driver:   31.0.15.2802
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009176 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012354 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.533 seconds
+- Completed reload, in  0.908 seconds
 Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (347ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006853 seconds.
+Registered in 0.008220 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Cancelling DisplayDialogComplex: Mobile Dependency Resolver required Mediation requires Mobile Dependency Resolver to resolve native dependencies.
+ Would you like to import the package?
+This should not be called in batch mode.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialogComplex (string,string,string,string,string)
+MobileDependencyResolver.Installer.Editor.MobileDependencyResolverInstaller:AskUserToInstallPackage () (at Library/PackageCache/com.unity.services.mediation@1.0.5/MobileDependencyResolver/Editor/MobileDependencyResolverInstaller.cs:38)
+MobileDependencyResolver.Installer.Editor.MobileDependencyResolverInstaller:InstallPlayServicesResolverIfNeeded () (at Library/PackageCache/com.unity.services.mediation@1.0.5/MobileDependencyResolver/Editor/MobileDependencyResolverInstaller.cs:23)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Library/PackageCache/com.unity.services.mediation@1.0.5/MobileDependencyResolver/Editor/MobileDependencyResolverInstaller.cs line 38]
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.597 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1598ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (812ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1249ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (475ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (673ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (212ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2341 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (57.3 KB). Loaded Objects now: 2777.
-Memory consumption went from 89.2 MB to 89.1 MB.
-Total: 5.429200 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.105900 ms MarkObjects: 5.051600 ms  DeleteObjects: 0.084700 ms)
+Unloading 59 unused Assets / (57.7 KB). Loaded Objects now: 2777.
+Memory consumption went from 90.0 MB to 90.0 MB.
+Total: 13.088500 ms (FindLiveObjects: 0.674700 ms CreateObjectMapping: 0.555400 ms MarkObjects: 11.654400 ms  DeleteObjects: 0.201500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,7 +174,389 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3014.345183 seconds.
-  path: Assets/Thomas
-  artifactKey: Guid(e1715a9d833b4b345b188e55d98125bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thomas using Guid(e1715a9d833b4b345b188e55d98125bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d33d0a77ec8b3a45371a6f84a04b501') in 0.005799 seconds 
+  Time since last request: 12624.322950 seconds.
+  path: Assets/Thomas/Models/FBX format/detail_crystalLarge.fbx
+  artifactKey: Guid(5c0081ca1a87fe143a5d7c6c4c52115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/detail_crystalLarge.fbx using Guid(5c0081ca1a87fe143a5d7c6c4c52115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14db18d5de4ba29a60db50f95ce9d244') in 0.373839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_riverFall.fbx
+  artifactKey: Guid(c9a2433496856374192e1996b39de60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_riverFall.fbx using Guid(c9a2433496856374192e1996b39de60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf341304e3208fbfcd9a5977dac4c172') in 0.058415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_rock.fbx
+  artifactKey: Guid(c0eda258fcf89c8478ffc3b2a40296be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_rock.fbx using Guid(c0eda258fcf89c8478ffc3b2a40296be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9700449f8d313ec57017bf5dc2d248c4') in 0.067278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_slope.fbx
+  artifactKey: Guid(30476013996257d44b724abdab4d3ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_slope.fbx using Guid(30476013996257d44b724abdab4d3ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f6bbed7e8d7310285911c8c7840eb5') in 0.064457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_detail_treeLarge.fbx
+  artifactKey: Guid(395557ebc189c704083b6fea76d71105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_detail_treeLarge.fbx using Guid(395557ebc189c704083b6fea76d71105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1894a861dd4dd9d6724ad14b7cfbec36') in 0.083831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_cornerInner.fbx
+  artifactKey: Guid(2e300ae574bf00842829b70230c9b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_cornerInner.fbx using Guid(2e300ae574bf00842829b70230c9b096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbd3df1371f6acf7838a79100efc9b2') in 0.064035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_cornerLarge.fbx
+  artifactKey: Guid(6e18bf7a14aaa9544a7f22b27b0817cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_cornerLarge.fbx using Guid(6e18bf7a14aaa9544a7f22b27b0817cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa6ed340674b355477668da869bc922') in 0.071052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_tree.fbx
+  artifactKey: Guid(585d23a3d32baa84da020e923490c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_tree.fbx using Guid(585d23a3d32baa84da020e923490c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8502af0323ce20a3a618dc4ba73c405a') in 0.081148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_cornerRound.fbx
+  artifactKey: Guid(15d292c50c8f19c45a02f0f2a7c317cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_cornerRound.fbx using Guid(15d292c50c8f19c45a02f0f2a7c317cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fb9b8b42fcae5305e457fc45fa30ed') in 0.069402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_riverBridge.fbx
+  artifactKey: Guid(601032a66d60ba54c9a091a9ff65cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_riverBridge.fbx using Guid(601032a66d60ba54c9a091a9ff65cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda6a5fdc171e2f39cb247175f9affc8') in 0.070925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_detail_tree.fbx
+  artifactKey: Guid(e36e570ac6d6fea4ca66031cada4a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_detail_tree.fbx using Guid(e36e570ac6d6fea4ca66031cada4a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc84a7b0d09a7ad380813df4a13d45e') in 0.078865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Thomas/Models/FBX format/enemy_ufoRedWeapon.fbx
+  artifactKey: Guid(444985636d6229145b9e17097497c5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/enemy_ufoRedWeapon.fbx using Guid(444985636d6229145b9e17097497c5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937dfd02e9e9db6ea9fc5f69848fd442') in 0.073160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Thomas/Models/FBX format/enemy_ufoPurple.fbx
+  artifactKey: Guid(b7aedead2b634d44e903c920d262ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/enemy_ufoPurple.fbx using Guid(b7aedead2b634d44e903c920d262ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eed9368d1b2c48b42d2be5b0ffe3563') in 0.086392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_spawn.fbx
+  artifactKey: Guid(09b612682ee7d2a41a8e3162089edde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_spawn.fbx using Guid(09b612682ee7d2a41a8e3162089edde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359fadfd74d5cd947024a2160710c959') in 0.100010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_detail_crystalLarge.fbx
+  artifactKey: Guid(05691953aad8949468a30f2cab88e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_detail_crystalLarge.fbx using Guid(05691953aad8949468a30f2cab88e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294f1cbd3a34fe5e6dadfa2481820401') in 0.132378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_split.fbx
+  artifactKey: Guid(f585197ae6c6f1841afc0d08f5379713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_split.fbx using Guid(f585197ae6c6f1841afc0d08f5379713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625b46e95211ebdb55104670b29b577f') in 0.072441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_riverCorner.fbx
+  artifactKey: Guid(33c281bc3c0dae54d84575423b6a8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_riverCorner.fbx using Guid(33c281bc3c0dae54d84575423b6a8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b088d298cb306ba57dc18d08b9d4fc') in 0.072932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_treeDouble.fbx
+  artifactKey: Guid(ab19cd012b0d5a442820b51dcc445d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_treeDouble.fbx using Guid(ab19cd012b0d5a442820b51dcc445d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228102a35a0c3fd5d1842dd1a0d680b1') in 0.108932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_rock.fbx
+  artifactKey: Guid(305993eb0c5e7c64893822c36c8c9df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_rock.fbx using Guid(305993eb0c5e7c64893822c36c8c9df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820b424c5047c1028f9418288553d003') in 0.072884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_straight.fbx
+  artifactKey: Guid(fb0a40d78db144c4f8d63f12a68c45a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_straight.fbx using Guid(fb0a40d78db144c4f8d63f12a68c45a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688ff27b1cfdd7d7cb9788bcab3d566a') in 0.075737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_riverFall.fbx
+  artifactKey: Guid(4ac9f97bc2218cb41aab0b573f86c094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_riverFall.fbx using Guid(4ac9f97bc2218cb41aab0b573f86c094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d9fa6794c6192c23155c4e1139e5b1') in 0.057151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_treeDouble.fbx
+  artifactKey: Guid(ff22b1fdcbd8fb846a2c243c0e740c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_treeDouble.fbx using Guid(ff22b1fdcbd8fb846a2c243c0e740c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7e10833d4b69ec9ace0dcc5f5e6294') in 0.078578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Thomas/Models/FBX format/detail_treeLarge.fbx
+  artifactKey: Guid(60048ed57b68d0941b3f963cd97f16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/detail_treeLarge.fbx using Guid(60048ed57b68d0941b3f963cd97f16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf6ecbc27223c09b5d08b74b7899b8b') in 0.058946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Thomas/Models/FBX format/detail_dirtLarge.fbx
+  artifactKey: Guid(371dd11439f8ee6449544890412587a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/detail_dirtLarge.fbx using Guid(371dd11439f8ee6449544890412587a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa16bd267bef7f172154da868aff2765') in 0.074504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_detail_dirt.fbx
+  artifactKey: Guid(bb45e5bce65e8cc4e839ebe78b06d8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_detail_dirt.fbx using Guid(bb45e5bce65e8cc4e839ebe78b06d8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81f3aac99ec5ab0fac816425175dc1a') in 0.050289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Thomas/Models/FBX format/detail_tree.fbx
+  artifactKey: Guid(3a504f240f105584faa7989756c9f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/detail_tree.fbx using Guid(3a504f240f105584faa7989756c9f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1924c2a1215e3b2ad3065226dc7a2a02') in 0.061097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_cornerLarge.fbx
+  artifactKey: Guid(4c44b5f1674e6a44ebf6eac8ed2094d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_cornerLarge.fbx using Guid(4c44b5f1674e6a44ebf6eac8ed2094d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e642b5946c0cbeabc4e8d1f0220ed58') in 0.064972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_slope.fbx
+  artifactKey: Guid(d61b34f648f8f8449a1843f2f5d3f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_slope.fbx using Guid(d61b34f648f8f8449a1843f2f5d3f4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c187dfe1203f8327f0f3ed87d31123a3') in 0.047338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_cornerOuter.fbx
+  artifactKey: Guid(d0a63592ea0e60948ab25fecd0d7f925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_cornerOuter.fbx using Guid(d0a63592ea0e60948ab25fecd0d7f925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d0a5994803c167a3213c89a8389488') in 0.058959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_detail_dirtLarge.fbx
+  artifactKey: Guid(237ab0b402c28fe4e97fb391aa4486f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_detail_dirtLarge.fbx using Guid(237ab0b402c28fe4e97fb391aa4486f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba8812a094090687b6bcdb6e976f766') in 0.049390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_crossing.fbx
+  artifactKey: Guid(0ab811b2dd489ca41828b1e3ddf9cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_crossing.fbx using Guid(0ab811b2dd489ca41828b1e3ddf9cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cef14d5b2e5856d01cbef949f23a5cb') in 0.060656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_crossing.fbx
+  artifactKey: Guid(132fd458df0974140ab30074b5c74313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_crossing.fbx using Guid(132fd458df0974140ab30074b5c74313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c6df4d08bc8859306e389fee914371') in 0.072129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_woodStructure.fbx
+  artifactKey: Guid(fe4d37bd3cce258459abb344ca838bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_woodStructure.fbx using Guid(fe4d37bd3cce258459abb344ca838bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ebe0280236f4b6897a4a4465ea8b88') in 0.053252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_endSpawn.fbx
+  artifactKey: Guid(612f81273750ba944a1e0f78202f9c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_endSpawn.fbx using Guid(612f81273750ba944a1e0f78202f9c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebb38aab1719d87e6fb205653b83211') in 0.084622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_riverBridge.fbx
+  artifactKey: Guid(892d1ac03953c2d4d8c5ec579d4aa3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_riverBridge.fbx using Guid(892d1ac03953c2d4d8c5ec579d4aa3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fcaadfd615da4deace291801c17691') in 0.064059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_riverSlopeLarge.fbx
+  artifactKey: Guid(41ff510e872e8224d96177d380db3860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_riverSlopeLarge.fbx using Guid(41ff510e872e8224d96177d380db3860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a21535b0c5f66ab8563fafcc1b6622e') in 0.067667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_crystal.fbx
+  artifactKey: Guid(16970a247ca1e2148a30e9b210b35697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_crystal.fbx using Guid(16970a247ca1e2148a30e9b210b35697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060747f4976fdabf20d1b70bd05fd024') in 0.129093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_straightHillLarge.fbx
+  artifactKey: Guid(1ee72b223925e314198e874810783648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_straightHillLarge.fbx using Guid(1ee72b223925e314198e874810783648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c429940f857dbfaa00a6449cdae780') in 0.064847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_crystal.fbx
+  artifactKey: Guid(cffcd35b59a09bc4b8b8898d54d0bdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_crystal.fbx using Guid(cffcd35b59a09bc4b8b8898d54d0bdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad8e1085dd3d68ece0a2ab0019358f9') in 0.107881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_wideSplit.fbx
+  artifactKey: Guid(0cda3d5570c372743a74e5e39c000298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_wideSplit.fbx using Guid(0cda3d5570c372743a74e5e39c000298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c69d997f59cf86fedfee0ae61c915d4') in 0.076184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_endRoundSpawn.fbx
+  artifactKey: Guid(b9eefe5bb85655041904ee704aa2a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_endRoundSpawn.fbx using Guid(b9eefe5bb85655041904ee704aa2a655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40edb7fb1733444aa9cf24c4dc202d52') in 0.095584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_cornerInner.fbx
+  artifactKey: Guid(3ddbc17470b1c3849ac03ada7fd8a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_cornerInner.fbx using Guid(3ddbc17470b1c3849ac03ada7fd8a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2564e454aa60166fd460f53496ad6f87') in 0.046790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_riverStraight.fbx
+  artifactKey: Guid(4b53c55dc02264e4dba9613dcae4b484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_riverStraight.fbx using Guid(4b53c55dc02264e4dba9613dcae4b484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614c27a9c7ab016bc270580acd47d5ac') in 0.075515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Thomas/Models/FBX format/snow_tile_bump.fbx
+  artifactKey: Guid(7089f8cafa6f1a54caed6eac42049eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/snow_tile_bump.fbx using Guid(7089f8cafa6f1a54caed6eac42049eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f147221e08555bc488a792be8c6c2768') in 0.065479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_cornerRound.fbx
+  artifactKey: Guid(c68672192cf54814a9d4c3bde97e6135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_cornerRound.fbx using Guid(c68672192cf54814a9d4c3bde97e6135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2ead66ce49507125323856af62501b') in 0.061606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Thomas/Models/FBX format/enemy_ufoYellowWeapon.fbx
+  artifactKey: Guid(2a28cc98990f6c54a9951b888fd4fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/enemy_ufoYellowWeapon.fbx using Guid(2a28cc98990f6c54a9951b888fd4fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea16a66d20e6f4eecae223746bdfdfd') in 0.085333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_riverSlope.fbx
+  artifactKey: Guid(d599ca7d40f55834eb213f0448bd7c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_riverSlope.fbx using Guid(d599ca7d40f55834eb213f0448bd7c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b649d45c196d61eb54b514e9ceff84') in 0.065698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.429318 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_wideCorner.fbx
+  artifactKey: Guid(3b61d6a675b86f946b78e3ed3a38fcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_wideCorner.fbx using Guid(3b61d6a675b86f946b78e3ed3a38fcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beda35355a5cedb14dbb48896441811') in 0.048200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_bottomC.fbx
+  artifactKey: Guid(92465f6d6a7b2ec4db87530efc1ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_bottomC.fbx using Guid(92465f6d6a7b2ec4db87530efc1ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978fb34630245584d651e230cf38138') in 0.056740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_wideSplit.fbx
+  artifactKey: Guid(38d48753abb749f498d317db15b0e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_wideSplit.fbx using Guid(38d48753abb749f498d317db15b0e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad1755ba334db4be306906a1d7b3d7') in 0.081105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_roofA.fbx
+  artifactKey: Guid(028d7be1f76483e48866efdde65a9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_roofA.fbx using Guid(028d7be1f76483e48866efdde65a9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59ea5241bb65092000e3b4dd6bda9bf') in 0.064532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Thomas/Models/FBX format/towerSquare_bottomA.fbx
+  artifactKey: Guid(713873f82cee3704f9bdad46652f43c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerSquare_bottomA.fbx using Guid(713873f82cee3704f9bdad46652f43c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91232d9dc2e0359cc8a9365ee0b4bfe8') in 0.049683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_bottomB.fbx
+  artifactKey: Guid(fe24fcbcc315f67429c5c3763c4e8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_bottomB.fbx using Guid(fe24fcbcc315f67429c5c3763c4e8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152e3548aa019857f213868391ed5a41') in 0.071316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_sampleE.fbx
+  artifactKey: Guid(3c6ef52d904535d4bafe34b59f039ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_sampleE.fbx using Guid(3c6ef52d904535d4bafe34b59f039ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed682b46896ffa6c92deaac62255e15') in 0.067406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Thomas/Models/FBX format/towerSquare_bottomB.fbx
+  artifactKey: Guid(36e43100e49c4c14caa7219ee27af26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerSquare_bottomB.fbx using Guid(36e43100e49c4c14caa7219ee27af26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9c7b10d8b807cb2edb4aee898d6e6') in 0.064815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Thomas/Models/FBX format/tile_wideStraight.fbx
+  artifactKey: Guid(623fe6adaadfd164794701fb04034513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/tile_wideStraight.fbx using Guid(623fe6adaadfd164794701fb04034513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7cc78704dc1d81cd33b9ebb2f22826') in 0.062091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_sampleC.fbx
+  artifactKey: Guid(9f6e3b3431577384bbcddd29876172fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_sampleC.fbx using Guid(9f6e3b3431577384bbcddd29876172fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2840111a0ef88e1f588df561e709b48f') in 0.055938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_middleC.fbx
+  artifactKey: Guid(1a6d26fec904b6341bf4ed52ee2cd508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_middleC.fbx using Guid(1a6d26fec904b6341bf4ed52ee2cd508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96de5c3bf97aaf7c214594f8f1b9070e') in 0.065074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_middleB.fbx
+  artifactKey: Guid(b78ad5cae38e34a47990ac4607f7b73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_middleB.fbx using Guid(b78ad5cae38e34a47990ac4607f7b73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d417f96e33ad496044b874a5d2f12e1') in 0.056808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Thomas/Models/FBX format/towerSquare_middleA.fbx
+  artifactKey: Guid(d88efefbd909eb64e9bd37a1dfe2fced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerSquare_middleA.fbx using Guid(d88efefbd909eb64e9bd37a1dfe2fced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86281845f24e230055d711f71fb5337a') in 0.061132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_sampleB.fbx
+  artifactKey: Guid(4131ecf54c64f4f498d6451669ff1cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_sampleB.fbx using Guid(4131ecf54c64f4f498d6451669ff1cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faaabdc7abf6e887be3297c40bbd3ed') in 0.068836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Thomas/Models/FBX format/towerSquare_roofA.fbx
+  artifactKey: Guid(a666d7c01f1750b4287ba81591105e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerSquare_roofA.fbx using Guid(a666d7c01f1750b4287ba81591105e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83c37dc1493d7064e28240fa5d60d61') in 0.057557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Thomas/Models/FBX format/towerRound_roofC.fbx
+  artifactKey: Guid(47cde58a53adf9c4ba8ffd41a2af5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerRound_roofC.fbx using Guid(47cde58a53adf9c4ba8ffd41a2af5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c063851950bd7ae999d21ed1e51aad9') in 0.056222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Thomas/Models/FBX format/towerSquare_middleB.fbx
+  artifactKey: Guid(7436227395c36ad4885d193323a941de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thomas/Models/FBX format/towerSquare_middleB.fbx using Guid(7436227395c36ad4885d193323a941de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567eb9bcd87694f2e5e7b9dc290bcd84') in 0.054846 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
