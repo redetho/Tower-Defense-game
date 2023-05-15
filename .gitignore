@@ -63,6 +63,12 @@ sysinfo.txt
 
 # Ignore Temp directory
 Temp/
+# Ignore Artifacts
+Breadth_First_Search/Library/Artifacts
+Breadth_First_Search/Library/Bee
+Breadth_First_Search/Library/BurstCache
+Breadth_First_Search/Library/PackageCache
+
 
 # Crashlytics generated file
 crashlytics-build.properties
