@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6f6ef6d622ae14041ba20a03b1b1a231, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -77,14 +77,14 @@ Material:
     - _OffsetPoint: 0.562
     - _Parallax: 0.02
     - _RampSmoothness: 0
-    - _RimLightOffset: 0.471
+    - _RimLightOffset: 0.653
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9716981, g: 0.8744854, b: 0.7746084, a: 1}
+    - _Color: {r: 0.67058825, g: 0.41960788, b: 0.23529413, a: 0.7294118}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecTint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

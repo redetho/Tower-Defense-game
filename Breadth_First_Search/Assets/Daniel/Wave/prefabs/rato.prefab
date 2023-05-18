@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4338265197621297848}
   - component: {fileID: 4338265197621297849}
-  - component: {fileID: 4338265197621297854}
+  - component: {fileID: -6293494573992356241}
   m_Layer: 0
   m_Name: rato
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4338265197621297854
+--- !u!114 &-6293494573992356241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,15 +94,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4338265197621297855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e073e73047f924e4fb4115e9d1c7967b, type: 3}
+  m_Script: {fileID: 11500000, guid: 16ae383101d04b34f889cda3aef84b92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  moveSpeed: 2
+  _movementSpeed: 10
+  _yOffset: 0

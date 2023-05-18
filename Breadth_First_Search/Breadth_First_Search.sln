@@ -3,60 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{01171aab-e495-24c9-2e4f-f00ee6e876c4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{537f803b-3472-15f3-7f83-07afbe8f8d66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{beeb0651-8dcd-ba1a-2525-252ef370cf58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{5c958d44-cf49-cb42-ac72-a1af9c54dcc8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{70a31d36-fe57-7f01-0a66-b81e7bb2928a}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{e9a4efa3-0bab-9e22-e02d-d9cb23a4df6d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{5106EBBE-CD8D-1ABA-2525-252EF370CF58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBloom.Runtime", "KinoBloom.Runtime.csproj", "{f50a9872-175d-e31a-0778-db93e3ba2da0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{3B807F53-7234-F315-7F83-07AFBE8F8D66}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBloom.Runtime", "KinoBloom.Runtime.csproj", "{72980AF5-5D17-1AE3-0778-DB93E3BA2DA0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{361DA370-57FE-017F-0A66-B81E7BB2928A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{448D955C-49CF-42CB-AC72-A1AF9C54DCC8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro.Demo.Editor", "ToonyColorsPro.Demo.Editor.csproj", "{6976D6E8-7B68-C610-6212-16E5F5D5C193}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro.Demo.Editor", "ToonyColorsPro.Demo.Editor.csproj", "{e8d67669-687b-10c6-6212-16e5f5d5c193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< Updated upstream
-		{AB1A1701-95E4-C924-2E4F-F00EE6E876C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB1A1701-95E4-C924-2E4F-F00EE6E876C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB1A1701-95E4-C924-2E4F-F00EE6E876C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB1A1701-95E4-C924-2E4F-F00EE6E876C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5106EBBE-CD8D-1ABA-2525-252EF370CF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5106EBBE-CD8D-1ABA-2525-252EF370CF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5106EBBE-CD8D-1ABA-2525-252EF370CF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5106EBBE-CD8D-1ABA-2525-252EF370CF58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B807F53-7234-F315-7F83-07AFBE8F8D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B807F53-7234-F315-7F83-07AFBE8F8D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B807F53-7234-F315-7F83-07AFBE8F8D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B807F53-7234-F315-7F83-07AFBE8F8D66}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72980AF5-5D17-1AE3-0778-DB93E3BA2DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72980AF5-5D17-1AE3-0778-DB93E3BA2DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72980AF5-5D17-1AE3-0778-DB93E3BA2DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72980AF5-5D17-1AE3-0778-DB93E3BA2DA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{361DA370-57FE-017F-0A66-B81E7BB2928A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{361DA370-57FE-017F-0A66-B81E7BB2928A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{361DA370-57FE-017F-0A66-B81E7BB2928A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{361DA370-57FE-017F-0A66-B81E7BB2928A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{448D955C-49CF-42CB-AC72-A1AF9C54DCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{448D955C-49CF-42CB-AC72-A1AF9C54DCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{448D955C-49CF-42CB-AC72-A1AF9C54DCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{448D955C-49CF-42CB-AC72-A1AF9C54DCC8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6976D6E8-7B68-C610-6212-16E5F5D5C193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6976D6E8-7B68-C610-6212-16E5F5D5C193}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6976D6E8-7B68-C610-6212-16E5F5D5C193}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6976D6E8-7B68-C610-6212-16E5F5D5C193}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{01171aab-e495-24c9-2e4f-f00ee6e876c4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01171aab-e495-24c9-2e4f-f00ee6e876c4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537f803b-3472-15f3-7f83-07afbe8f8d66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537f803b-3472-15f3-7f83-07afbe8f8d66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{beeb0651-8dcd-ba1a-2525-252ef370cf58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{beeb0651-8dcd-ba1a-2525-252ef370cf58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5c958d44-cf49-cb42-ac72-a1af9c54dcc8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5c958d44-cf49-cb42-ac72-a1af9c54dcc8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70a31d36-fe57-7f01-0a66-b81e7bb2928a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70a31d36-fe57-7f01-0a66-b81e7bb2928a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e9a4efa3-0bab-9e22-e02d-d9cb23a4df6d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e9a4efa3-0bab-9e22-e02d-d9cb23a4df6d}.Debug|Any CPU.Build.0 = Debug|Any CPU
->>>>>>> Stashed changes
+		{f50a9872-175d-e31a-0778-db93e3ba2da0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f50a9872-175d-e31a-0778-db93e3ba2da0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e8d67669-687b-10c6-6212-16e5f5d5c193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e8d67669-687b-10c6-6212-16e5f5d5c193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

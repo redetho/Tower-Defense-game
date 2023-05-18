@@ -74,7 +74,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Offset: 0.671
+    - _Offset: 0.687
     - _OffsetPoint: 0.498
     - _Parallax: 0.02
     - _RampSmoothness: 0.153
@@ -87,5 +87,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecTint: {r: 0, g: 0.5942297, b: 1, a: 1}
   m_BuildTextureStacks: []
