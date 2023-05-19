@@ -63,6 +63,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Daniel\Wave\FollowThePath.cs" />
+     <Compile Include="Assets\Thiago\TowerSelection.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Thiago\AIPlayerDetector.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
@@ -99,11 +100,10 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Scripts\SearchPath.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Pedro\GamerManager.cs" />
      <Compile Include="Assets\Daniel\Menu\SoundMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Pedro\GamerManager.cs" />
      <Compile Include="Assets\Thiago\TorretaSlot.cs" />
-     <Compile Include="Assets\Thiago\TowerSelection.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Thiago\Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -123,6 +123,7 @@
      <Folder Include="Assets\Talit\msVFX_Free Smoke Effects Pack\Prefabs" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Misc" />
+     <Folder Include="Assets\VFX\Materials" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX Prefabs\Electric" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts" />
@@ -214,8 +215,10 @@
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Skull &amp; Ghosts Effects" />
      <None Include="Assets\Toon Forest free set\sqript\custom.shader" />
      <Folder Include="Assets\Talit" />
+     <Folder Include="Assets\Thomas\materials\Textures" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
+     <Folder Include="Assets\Thomas\Prefab" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Explosions" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Misc" />
      <Folder Include="Assets\Thiago" />

@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 4b5dcc23ad2b1a145a2f945ac2e3bfa5
   - enabled: 1
-    path: Assets/Thomas/Scenes/AntAnim.unity
-    guid: 21c7240a8e0652c4d978e722ebfafbe4
-  - enabled: 1
     path: Assets/Thomas/Path Maker/PathMaker.unity
     guid: 273e9ce24bad89e4f883321b2caab78a
+  - enabled: 0
+    path: Assets/Thomas/Scenes/AntAnim.unity
+    guid: 21c7240a8e0652c4d978e722ebfafbe4
   - enabled: 0
     path: Assets/Scenes/Sample_01.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
