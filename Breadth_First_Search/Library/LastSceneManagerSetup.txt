@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Sample_01.unity
+- path: Assets/Thomas/Path Maker/PathMaker.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

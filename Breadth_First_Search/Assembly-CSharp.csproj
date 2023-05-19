@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\CubeEditorInEditMode.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Daniel\Menu\MainMenu.cs" />
+     <Compile Include="Assets\Thomas\activatePathfinding.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -100,7 +101,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Daniel\Menu\SoundMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Thomas\activatePathfinding.cs" />
+     <Compile Include="Assets\Pedro\GamerManager.cs" />
+     <Compile Include="Assets\Thiago\TorretaSlot.cs" />
+     <Compile Include="Assets\Thiago\TowerSelection.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Thiago\Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -137,6 +140,7 @@
      <None Include="Assets\Toon Forest free set\sqript\custom3.shader" />
      <Folder Include="Assets\Thomas\Animations\AntQueen" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Light" />
+     <Folder Include="Assets\Thomas\Inimigos\Joaninha" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Electric" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Nature" />
@@ -166,6 +170,7 @@
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Animated" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Fire" />
+     <Folder Include="Assets\Pedro" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Thomas\Path Maker" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Magic Misc" />
@@ -192,6 +197,7 @@
      <None Include="Assets\Resources\BillingMode.json" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Eerie" />
+     <Folder Include="Assets\Prefabs\Inimigos" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Magic Misc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\Readme Cartoon FX Remaster FREE.txt" />
@@ -233,6 +239,7 @@
      <Folder Include="Assets\Thomas\Scenes" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials" />
+     <Folder Include="Assets\Thomas\Inimigos\vespa" />
      <Folder Include="Assets\Thomas\materials\Materials\Grass" />
      <Folder Include="Assets\Resources" />
      <Folder Include="Assets\Daniel\Wave\prefabs" />
@@ -266,6 +273,7 @@
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Water" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Impacts" />
+     <Folder Include="Assets\Scenespedro" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Debris Hits" />
@@ -278,6 +286,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Electric" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\Thomas\Inimigos" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Distortion.shader" />

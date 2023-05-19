@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +20,11 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(Movement(_searchPath.Path));
         }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        
     }
 
     IEnumerator Movement(List<Node> paths)

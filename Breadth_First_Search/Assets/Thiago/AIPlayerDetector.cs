@@ -34,6 +34,7 @@ namespace SVS.AI
 
         private void Start()
         {
+            detectorOrigin = this.gameObject.transform;
             StartCoroutine(DetectionCoroutine());
         }
 
@@ -46,10 +47,9 @@ namespace SVS.AI
 
         private void PerformDetection()
         {
-            Collider[] colliders = Physics.OverlapBox(
+            Collider[] colliders = Physics.OverlapSphere(
                 detectorOrigin.position + detectorOriginOffset,
-                detectorSize / 2,
-                detectorOrigin.rotation,
+                detectorSize.x / 2,
                 detectorLayerMask);
 
             if (colliders.Length > 0)
@@ -67,15 +67,15 @@ namespace SVS.AI
             if (showGizmo && detectorOrigin != null)
             {
                 Gizmos.color = gizmoIdColor;
-                Gizmos.matrix = detectorOrigin.localToWorldMatrix;
-                Gizmos.DrawWireCube(detectorOriginOffset, detectorSize);
+                Gizmos.DrawWireSphere(detectorOrigin.position + detectorOriginOffset, detectorSize.x / 2);
 
                 if (playerDetected)
                 {
                     Gizmos.color = gizmoDetectedColor;
-                    Gizmos.DrawCube(detectorOriginOffset, detectorSize);
+                    Gizmos.DrawSphere(detectorOrigin.position + detectorOriginOffset, detectorSize.x / 2);
                 }
             }
         }
+
     }
 }

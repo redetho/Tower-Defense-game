@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9d63722adf77e4bbd836d0b3794634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
   pathBlockPrefab: {fileID: 1903388687898141879, guid: 5b2f2bbfb601608458e0cd33bc0f7cc0,
     type: 3}
 --- !u!65 &6557772363812286475
