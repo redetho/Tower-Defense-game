@@ -5,7 +5,10 @@ using UnityEngine;
 public class WaveSpawner : MonoBehaviour
 {
    public enum SpawnState {SPAWNING, WAITING, COUNTING };
-    [System.Serializable]
+   public GamerManager gameManager;
+   
+
+   [System.Serializable] 
   
     public class Wave
     {
@@ -36,7 +39,8 @@ public class WaveSpawner : MonoBehaviour
     private SpawnState state = SpawnState.COUNTING;
 
      void Start()
-    {
+     {
+         gameManager = FindObjectOfType<GamerManager>();
         waveCountdown = timeBetweenWaves;
     }
 
@@ -63,8 +67,8 @@ public class WaveSpawner : MonoBehaviour
         }
         else
         {
-
             waveCountdown -= Time.deltaTime;
+            gameManager.UpdateWaveCountdown(waveCountdown);
         }
     }
 

@@ -7,6 +7,8 @@ public class Block : MonoBehaviour
 {
     public GamerManager gameManager;
     public GameObject pathBlockPrefab;
+    
+    public GameObject breakParticlesPrefab;
 
     private void Awake()
     {
@@ -19,9 +21,12 @@ public class Block : MonoBehaviour
         {
             
             Destroy(gameObject);
+            
+            Instantiate(breakParticlesPrefab, transform.position, Quaternion.identity);
 
             Instantiate(pathBlockPrefab, transform.position, Quaternion.identity);
             gameManager.AddPoints();
+
         }
     }
 }

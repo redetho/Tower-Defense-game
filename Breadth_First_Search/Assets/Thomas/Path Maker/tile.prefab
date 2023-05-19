@@ -101,6 +101,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   pathBlockPrefab: {fileID: 1903388687898141879, guid: 5b2f2bbfb601608458e0cd33bc0f7cc0,
     type: 3}
+  breakParticlesPrefab: {fileID: 2759264636882682901, guid: f2ae1a12a7340e247a42893b6f8579fc,
+    type: 3}
 --- !u!65 &6557772363812286475
 BoxCollider:
   m_ObjectHideFlags: 0

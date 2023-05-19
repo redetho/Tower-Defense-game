@@ -334,6 +334,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/CFXRDemo.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/CFXREditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/CFXRRuntime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
@@ -376,6 +378,7 @@
 "Assets/Daniel/Menu/SoundMenu.cs"
 "Assets/Daniel/Wave/FollowThePath.cs"
 "Assets/Daniel/Wave/WaveSpawner.cs"
+"Assets/Fancy Footsteps/Example/ExampleAssets/ActivateAndDeactivateForExample.cs"
 "Assets/Pedro/GamerManager.cs"
 "Assets/Scripts/CubeEditorInEditMode.cs"
 "Assets/Scripts/GameManager.cs"
@@ -432,9 +435,11 @@
 "Assets/Thiago/Torret.cs"
 "Assets/Thiago/TorretaSlot.cs"
 "Assets/Thiago/TowerSelection.cs"
-"Assets/Thomas/activatePathfinding.cs"
 "Assets/Thomas/Path Maker/Block.cs"
 "Assets/Thomas/Player/PlayerController.cs"
+"Assets/Thomas/Scripts/activatePathfinding.cs"
+"Assets/Thomas/Scripts/AnthillHealth.cs"
+"Assets/Thomas/Scripts/FollowPlayer.cs"
 -langversion:9.0
 
 /deterministic
