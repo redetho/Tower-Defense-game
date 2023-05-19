@@ -568,6 +568,8 @@ MonoBehaviour:
     type: 3}
   towerPrefab2: {fileID: 5412619566155739730, guid: 3abb1f9381a69684ea4929d8cacfbe16,
     type: 3}
+  towerBuild: {fileID: 5888561537224592644, guid: a5ffddce328704f4f97bd106bc5459a3,
+    type: 3}
   GM: {fileID: 0}
   tower1Cost: 3
   tower2Cost: 5

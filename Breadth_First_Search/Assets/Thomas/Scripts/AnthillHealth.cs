@@ -18,10 +18,11 @@ public class AnthillHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
     }
+    
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Enemies"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
             TakeDamage();
         }
@@ -42,7 +43,7 @@ public class AnthillHealth : MonoBehaviour
 
     private void Die()
     {
-        // Logic for enemy death, such as playing death animation, adding score, etc.
+        gameManager.GameOver();
         Destroy(gameObject);
     }
 }

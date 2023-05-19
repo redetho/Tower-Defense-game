@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7124372136229070514}
   - component: {fileID: 7124372136229070512}
   - component: {fileID: 7124372136229070513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Joaninha
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7124372136229070515}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1, z: -3.5}
+  m_LocalPosition: {x: -0, y: 2.31, z: 0.09}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40,7 +40,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7124372136229070515}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -115,10 +115,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7124372136725968776}
-  - component: {fileID: 7124372136725968777}
-  m_Layer: 0
+  - component: {fileID: 6919373327985863909}
+  - component: {fileID: 1602369818}
+  - component: {fileID: 1602369819}
+  - component: {fileID: 980923584544890093}
+  m_Layer: 6
   m_Name: JoaninhaPrefab
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,16 +133,81 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7124372136725968778}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 57.178783, y: -0.4, z: -73.85527}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.37, y: 2.37, z: 2.37}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7124372136229070514}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7124372136725968777
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!65 &6919373327985863909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124372136725968778}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.003455, y: 5.5516815, z: 0.62273216}
+  m_Center: {x: 0.44140005, y: 2.275838, z: -0.0015657746}
+--- !u!212 &1602369818
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124372136725968778}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9e499fc2ea7c6144585b0d04d9f450aa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 21, y: 21}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1602369819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,9 +216,276 @@ MonoBehaviour:
   m_GameObject: {fileID: 7124372136725968778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16ae383101d04b34f889cda3aef84b92, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ffdcf6d12b09484a92f602be076188e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementSpeed: 10
-  _yOffset: 5
-  _rotationSpeed: 160
+  cont: 0
+  hitsToDie: 3
+--- !u!114 &980923584544890093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124372136725968778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b592168a9afa66941969d145138b30b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetNode: 1
+  enemyStats: {fileID: 11400000, guid: 8722acf3762788143a8c2d001eac00af, type: 2}
+  autoRotateTowardsDestination: 1
+  playerFloatOffset: 0
+  raycastOriginOffset: 0
+  raycastDistanceFromOrigin: 40
+  thoroughPathFinding: 1
+  useGroundSnap: 0
+  nodes:
+  - position: {x: 38.7, y: 2.65, z: -128.42303}
+    isOpen: 1
+    autoGeneratedID: 1
+    heuristicDistance: 116.853775
+    pathDistance: 0
+  - position: {x: 38.315746, y: 0.80785644, z: -163.42569}
+    isOpen: 1
+    autoGeneratedID: 2
+    heuristicDistance: 104.477684
+    pathDistance: 0
+  - position: {x: 37.939926, y: 1.5994306, z: -177.93669}
+    isOpen: 1
+    autoGeneratedID: 3
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 37.491272, y: 1.5994306, z: -189.75656}
+    isOpen: 1
+    autoGeneratedID: 4
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 36.130363, y: 1.5994306, z: -200.3476}
+    isOpen: 1
+    autoGeneratedID: 5
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 34.954163, y: 1.5994306, z: -209.22417}
+    isOpen: 1
+    autoGeneratedID: 6
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 23.752167, y: 1.5994306, z: -209.6867}
+    isOpen: 1
+    autoGeneratedID: 7
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 23.124842, y: 1.5994306, z: -220.08885}
+    isOpen: 1
+    autoGeneratedID: 8
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 22.130682, y: 1.5994306, z: -228.82121}
+    isOpen: 1
+    autoGeneratedID: 9
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 13.127186, y: 1.5994306, z: -228.62845}
+    isOpen: 1
+    autoGeneratedID: 10
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 3.9720001, y: 1.5994306, z: -229.07599}
+    isOpen: 1
+    autoGeneratedID: 11
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -3.5604372, y: 1.5994306, z: -228.38062}
+    isOpen: 1
+    autoGeneratedID: 12
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -10.823658, y: 0.80785644, z: -229.46353}
+    isOpen: 1
+    autoGeneratedID: 13
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -21.539629, y: 0.80785644, z: -229.37517}
+    isOpen: 1
+    autoGeneratedID: 14
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -32.460423, y: 0.80785644, z: -231.19958}
+    isOpen: 1
+    autoGeneratedID: 15
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -32.153496, y: 0.80785644, z: -241.85788}
+    isOpen: 1
+    autoGeneratedID: 16
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -22.205145, y: 0.80785644, z: -220.23444}
+    isOpen: 1
+    autoGeneratedID: 17
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -22.150118, y: 1.5994306, z: -209.46507}
+    isOpen: 1
+    autoGeneratedID: 18
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -21.907698, y: 1.5994306, z: -198.80276}
+    isOpen: 1
+    autoGeneratedID: 19
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -33.439117, y: 1.5994306, z: -196.10162}
+    isOpen: 1
+    autoGeneratedID: 20
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -33.19431, y: 1.5994306, z: -183.68118}
+    isOpen: 1
+    autoGeneratedID: 21
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -32.12655, y: 1.5994306, z: -171.05463}
+    isOpen: 1
+    autoGeneratedID: 22
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -31.695965, y: 1.5994306, z: -160.0596}
+    isOpen: 1
+    autoGeneratedID: 23
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -31.469116, y: 1.5994306, z: -151.7226}
+    isOpen: 1
+    autoGeneratedID: 24
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -21.422455, y: 1.5994306, z: -151.39296}
+    isOpen: 1
+    autoGeneratedID: 25
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: -11.671677, y: 1.5994306, z: -151.66782}
+    isOpen: 1
+    autoGeneratedID: 26
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 0.5218601, y: 0.80785644, z: -151.41507}
+    isOpen: 1
+    autoGeneratedID: 27
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 12.6, y: 0.41, z: -153.7858}
+    isOpen: 1
+    autoGeneratedID: 28
+    heuristicDistance: 144.9898
+    pathDistance: 0
+  - position: {x: 107.10297, y: 0.80785644, z: -56.453224}
+    isOpen: 1
+    autoGeneratedID: 29
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 107.94417, y: 0.80785644, z: -66.91551}
+    isOpen: 1
+    autoGeneratedID: 30
+    heuristicDistance: 138.47467
+    pathDistance: 0
+  - position: {x: 97.37669, y: 0.80785644, z: -66.98144}
+    isOpen: 1
+    autoGeneratedID: 31
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 87.00697, y: 1.5994306, z: -66.312904}
+    isOpen: 1
+    autoGeneratedID: 32
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 76.6313, y: 1.5994306, z: -65.74374}
+    isOpen: 1
+    autoGeneratedID: 33
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 68.212555, y: 1.5994306, z: -66.722946}
+    isOpen: 1
+    autoGeneratedID: 34
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 67.81294, y: 1.5994306, z: -75.8591}
+    isOpen: 1
+    autoGeneratedID: 35
+    heuristicDistance: -1
+    pathDistance: 0
+  - position: {x: 65.82487, y: 0.80785644, z: -87.633995}
+    isOpen: 1
+    autoGeneratedID: 36
+    heuristicDistance: 123.67325
+    pathDistance: 0
+  - position: {x: 109.230194, y: 1.5994306, z: -77.4854}
+    isOpen: 1
+    autoGeneratedID: 37
+    heuristicDistance: 120.294464
+    pathDistance: 0
+  - position: {x: 108.84201, y: 1.5994306, z: -86.34776}
+    isOpen: 1
+    autoGeneratedID: 38
+    heuristicDistance: 104.477684
+    pathDistance: 0
+  - position: {x: 116.41953, y: 1.5994306, z: -86.699036}
+    isOpen: 1
+    autoGeneratedID: 39
+    heuristicDistance: 117.07451
+    pathDistance: 0
+  - position: {x: 117.2195, y: 1.5994306, z: -95.36543}
+    isOpen: 1
+    autoGeneratedID: 40
+    heuristicDistance: 116.5133
+    pathDistance: 0
+  - position: {x: 116.82277, y: 1.5994306, z: -104.252686}
+    isOpen: 1
+    autoGeneratedID: 41
+    heuristicDistance: 117.91591
+    pathDistance: 0
+  - position: {x: 116.866776, y: 1.5994306, z: -111.40082}
+    isOpen: 1
+    autoGeneratedID: 42
+    heuristicDistance: 120.52725
+    pathDistance: 0
+  - position: {x: 117.53186, y: 1.5994306, z: -121.42979}
+    isOpen: 1
+    autoGeneratedID: 43
+    heuristicDistance: 125.80536
+    pathDistance: 0
+  - position: {x: 116.14555, y: 1.5994306, z: -132.41068}
+    isOpen: 1
+    autoGeneratedID: 44
+    heuristicDistance: 130.42398
+    pathDistance: 0
+  - position: {x: 106.62468, y: 1.5994306, z: -132.27765}
+    isOpen: 1
+    autoGeneratedID: 45
+    heuristicDistance: 121.06291
+    pathDistance: 0
+  - position: {x: 98.723404, y: 1.5994306, z: -132.53345}
+    isOpen: 1
+    autoGeneratedID: 46
+    heuristicDistance: 115.13421
+    pathDistance: 0
+  - position: {x: 92.190544, y: 1.5994306, z: -132.71767}
+    isOpen: 1
+    autoGeneratedID: 47
+    heuristicDistance: 111.28601
+    pathDistance: 0
+  - position: {x: 85.70039, y: 1.5994306, z: -131.88866}
+    isOpen: 1
+    autoGeneratedID: 48
+    heuristicDistance: 108.008865
+    pathDistance: 0
+  - position: {x: 76.348694, y: 0.80785644, z: -131.22647}
+    isOpen: 1
+    autoGeneratedID: 49
+    heuristicDistance: 105.24513
+    pathDistance: 0
+  debugLogLevel: 1
+  debugDrawLineDuration: 0

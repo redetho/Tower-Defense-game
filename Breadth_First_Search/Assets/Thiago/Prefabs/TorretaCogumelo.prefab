@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &231298134852063102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240270716444390585}
+  m_Layer: 9
+  m_Name: firepoint
+  m_TagString: Torret
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1240270716444390585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231298134852063102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4393342792758858809}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2890763603218142775
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,9 +44,11 @@ GameObject:
   - component: {fileID: 8044695073755358621}
   - component: {fileID: 1135764430782184422}
   - component: {fileID: 4134290009989337447}
-  m_Layer: 6
+  - component: {fileID: 1875158575419827972}
+  - component: {fileID: 1820710913}
+  m_Layer: 9
   m_Name: Mushroom
-  m_TagString: Enemies
+  m_TagString: Torret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,6 +66,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 440087211417086669}
+  - {fileID: 1240270716444390585}
   m_Father: {fileID: 7392303367305104311}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -114,15 +148,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDetected: 0
   detectorOrigin: {fileID: 0}
-  detectorSize: {x: 1, y: 1, z: 1}
+  detectorSize: {x: 50, y: 1, z: 1}
   detectorOriginOffset: {x: 0, y: 0, z: 0}
   detectionDelay: 0.3
   detectorLayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   gizmoIdColor: {r: 0, g: 1, b: 0, a: 1}
   gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 1}
-  showGizmo: 1
+  showGizmo: 0
+--- !u!114 &1875158575419827972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2890763603218142775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2b008a89484b049a018a07fc0ebcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 9013972423066267939, guid: 7e48308b0c878ff49975342d589f3604,
+    type: 3}
+  rotationSpeed: 500
+  firePoint: {fileID: 1240270716444390585}
+  fireRate: 1
+--- !u!114 &1820710913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2890763603218142775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2b008a89484b049a018a07fc0ebcdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 9013972423066267939, guid: 7e48308b0c878ff49975342d589f3604,
+    type: 3}
+  rotationSpeed: 5
+  firePoint: {fileID: 1240270716444390585}
+  fireRate: 0.5
 --- !u!1 &5412619566155739730
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,9 +200,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7392303367305104311}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TorretaCogumelo
-  m_TagString: Untagged
+  m_TagString: Torret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,9 +233,9 @@ GameObject:
   m_Component:
   - component: {fileID: 440087211417086669}
   - component: {fileID: 8705096641605279165}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Torret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

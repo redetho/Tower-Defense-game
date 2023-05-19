@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemies
+  - FxTemporaire
+  - Enemy
+  - Torret
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -12,10 +16,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Enemies
+  - Enemy
   - Player
-  - 
-  - 
+  - Ground
+  - Torret
   - 
   - 
   - 

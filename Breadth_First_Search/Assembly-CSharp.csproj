@@ -83,7 +83,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Thomas\Player\PlayerController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Fancy Footsteps\Example\ExampleAssets\ActivateAndDeactivateForExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Thomas\Scripts\AnthillHealth.cs" />
      <Compile Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Thiago\Torret.cs" />
@@ -92,9 +94,9 @@
      <Compile Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\Thomas\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -104,22 +106,64 @@
      <Compile Include="Assets\Daniel\Menu\SoundMenu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Thiago\TorretaSlot.cs" />
-     <Compile Include="Assets\Fancy Footsteps\Example\ExampleAssets\ActivateAndDeactivateForExample.cs" />
-     <Compile Include="Assets\Thomas\Scripts\FollowPlayer.cs" />
-     <Compile Include="Assets\Thomas\Scripts\AnthillHealth.cs" />
+     <Compile Include="Assets\QPathFinder\Script\Followers\PathFollower.cs" />
+     <Compile Include="Assets\QPathFinder\Sample\Scripts\MoveToNode.cs" />
+     <Compile Include="Assets\QPathFinder\Sample\Scripts\MouseClickDemo.cs" />
+     <Compile Include="Assets\QPathFinder\Script\GraphData.cs" />
+     <Compile Include="Assets\QPathFinder\Script\PathFinder.cs" />
+     <Compile Include="Assets\QPathFinder\Sample\Scripts\MoveToPoint.cs" />
+     <Compile Include="Assets\QPathFinder\Script\Utils.cs" />
+     <Compile Include="Assets\QPathFinder\Script\Followers\PathFollowerToPositionAndSnapToGround.cs" />
+     <Compile Include="Assets\QPathFinder\Script\Followers\PathFollowerToPosition.cs" />
+     <Compile Include="Assets\QPathFinder\Script\Followers\PathFollowerWithNodes.cs" />
+     <Compile Include="Assets\QPathFinder\Script\Followers\PathFollowerUtility.cs" />
+     <Compile Include="Assets\Script\Enemy\AutomaticWave.cs" />
+     <Compile Include="Assets\Script\Scenes\Tutorial\ResetMoney.cs" />
+     <Compile Include="Assets\Script\UI\UITorres.cs" />
+     <Compile Include="Assets\Script\Rounds\FakeRound.cs" />
+     <Compile Include="Assets\Script\UI\GameOverMenu.cs" />
+     <Compile Include="Assets\Script\Scenes\Tutorial\HealthWork.cs" />
+     <Compile Include="Assets\Script\Rounds\Round.cs" />
+     <Compile Include="Assets\Script\Dialogue\StartDialogueSystem.cs" />
+     <Compile Include="Assets\Script\Scenes\Tutorial\CloseDialogue.cs" />
+     <Compile Include="Assets\Script\Dialogue\DialogueSystem.cs" />
+     <Compile Include="Assets\Script\Money\MoneySO.cs" />
+     <Compile Include="Assets\Script\Enemy\WaveManager.cs" />
+     <Compile Include="Assets\Script\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Script\Bridge\Bridge.cs" />
+     <Compile Include="Assets\Script\Scenes\Tutorial\TutorialManager.cs" />
+     <Compile Include="Assets\Script\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\Script\UI\HealthSystem.cs" />
+     <Compile Include="Assets\Script\Other\DeathSquare.cs" />
+     <Compile Include="Assets\Script\Bridge\BridgeRaise.cs" />
+     <Compile Include="Assets\Script\Money\Currency.cs" />
+     <Compile Include="Assets\Script\Enemy\EnemyStats.cs" />
+     <Compile Include="Assets\Script\Other\SetActiveGO.cs" />
+     <Compile Include="Assets\Script\Scenes\Tutorial\BridgeWork.cs" />
+     <Compile Include="Assets\Script\Enemy\SpawnEnemy.cs" />
+     <Compile Include="Assets\Thiago\EnemyHEALTH.cs" />
+     <Compile Include="Assets\Thiago\FireTorret.cs" />
+     <Compile Include="Assets\Thiago\TowerBullet.cs" />
+     <Compile Include="Assets\Thiago\RestartButton.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Thiago\Prefabs" />
+     <Folder Include="Assets\QPathFinder" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Magic Dark" />
      <Folder Include="Assets\Thomas\materials\Materials\dirt" />
+     <Folder Include="Assets\QPathFinder\Sample\Material" />
      <Folder Include="Assets\Toon Forest free set\Mesh\Materials" />
+     <Folder Include="Assets\Script\Dialogue" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
+     <Folder Include="Assets\Thomas\Sound FX" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\Script\Scenes\Tutorial" />
      <Folder Include="Assets\Talit\New Folder" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX4 Prefabs\Electric" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Sword Trails\Ice" />
+     <Folder Include="Assets\Script\Other" />
      <Folder Include="Assets\VFX" />
      <Folder Include="Assets\Talit\msVFX_Free Smoke Effects Pack\Textures" />
      <Folder Include="Assets\Thomas\Foliage\Shaded\Materials" />
@@ -137,6 +181,7 @@
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Ubershader.shader" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Scripts" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX4 Prefabs\Misc" />
      <Folder Include="Assets\Thomas\materials" />
@@ -147,6 +192,7 @@
      <Folder Include="Assets\Thomas\Animations\AntQueen" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Light" />
      <Folder Include="Assets\Thomas\Inimigos\Joaninha" />
+     <Folder Include="Assets\Script\Scenes" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Electric" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Nature" />
@@ -165,18 +211,24 @@
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX4 Prefabs\Fire" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Daniel" />
+     <Folder Include="Assets\QPathFinder\Script" />
      <Folder Include="Assets\Thomas\Animations" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Fire" />
+     <Folder Include="Assets\SimpleFX" />
+     <Folder Include="Assets\QPathFinder\Sample\Scripts" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Light" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX Prefabs\Explosions" />
+     <Folder Include="Assets\QPathFinder\Sample\Prefab" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX Prefabs\Hits" />
      <Folder Include="Assets\Toon Forest free set\texture" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Animated" />
+     <Folder Include="Assets\QPathFinder\Sample\Scenes" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Fire" />
      <Folder Include="Assets\Pedro" />
+     <Folder Include="Assets\QPathFinder\Sample\Model" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Thomas\Path Maker" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Magic Misc" />
@@ -189,6 +241,7 @@
      <Folder Include="Assets\Fancy Footsteps\Example" />
      <Folder Include="Assets\Talit\msVFX_Free Smoke Effects Pack\Materials" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo" />
+     <Folder Include="Assets\Script\UI" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo\Assets" />
      <Folder Include="Assets\Thomas\Foliage\Shaded" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Sword Trails\Plain" />
@@ -210,6 +263,7 @@
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\Readme Cartoon FX Remaster FREE.txt" />
      <None Include="Assets\Thomas\Shader\ToonShader (2).shader" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
+     <Folder Include="Assets\QPathFinder\Sample" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Light" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Shaders" />
@@ -222,10 +276,13 @@
      <None Include="Assets\Toon Forest free set\sqript\custom.shader" />
      <Folder Include="Assets\Talit" />
      <Folder Include="Assets\Thomas\materials\Textures" />
+     <Folder Include="Assets\QPathFinder\Sample\Textures" />
      <Folder Include="Assets\Fancy Footsteps\Shaders" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
      <Folder Include="Assets\Thomas\Prefab" />
+     <Folder Include="Assets\FX\Audio" />
+     <Folder Include="Assets\Script\Money" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Explosions" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Misc" />
      <Folder Include="Assets\Thiago" />
@@ -236,6 +293,7 @@
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Demo\UI Canvas" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
+     <Folder Include="Assets\Script\Rounds" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX Prefabs\Misc" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Ice" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
@@ -246,8 +304,10 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Material" />
+     <Folder Include="Assets\SimpleFX\Prefabs" />
      <Folder Include="Assets\Thomas\Scenes" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\QPathFinder\Script\Followers" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials" />
      <Folder Include="Assets\Thomas\Inimigos\vespa" />
      <Folder Include="Assets\Thomas\materials\Materials\Grass" />
@@ -256,11 +316,17 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
      <Folder Include="Assets\Toon Forest free set\scene" />
      <Folder Include="Assets\Toon Forest free set\sqript" />
+     <Folder Include="Assets\Objetcs" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Electric" />
+     <Folder Include="Assets\Script" />
+     <Folder Include="Assets\Objetcs\Bat" />
      <Folder Include="Assets\Talit\msVFX_Free Smoke Effects Pack" />
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\Thomas\Foliage" />
+     <Folder Include="Assets\Script\Bridge" />
+     <Folder Include="Assets\Script\Enemy" />
+     <Folder Include="Assets\Thomas\Models\Materials" />
      <None Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Daniel\Menu" />
@@ -271,6 +337,8 @@
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Fire" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Electric" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Symbols" />
+     <Folder Include="Assets\SimpleFX\Materials" />
+     <Folder Include="Assets\Script\Tower" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Assets" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Sword Trails" />
@@ -298,8 +366,10 @@
      <Folder Include="Assets\Fancy Footsteps\Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Talit\JMO Assets\Cartoon FX (legacy)\Materials\Electric" />
+     <Folder Include="Assets\Objetcs\Bat\Texture" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Fancy Footsteps\Meshes" />
+     <Folder Include="Assets\FX" />
      <Folder Include="Assets\Thomas\Inimigos" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
@@ -985,8 +1055,14 @@
      <Reference Include="Unity.2D.IK.Runtime">
      <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Analytics.DataPrivacy">
      <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Purchasing.Codeless">
      <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
@@ -1065,12 +1141,6 @@
      </Reference>
      <Reference Include="UnityEditor.Purchasing">
      <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
-     </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>C:\Users\firel\Downloads\tower defense bfs\Tower-Defense-game\Breadth_First_Search\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -44,26 +44,149 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01a13c39c2857b48bc16a8ad1d36593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
   waves:
   - name: Round 1
     enemies:
-    - enemyTransform: {fileID: 4338265197621297848, guid: 5275b577d4838884abdc02506ab68a97,
-        type: 3}
-      count: 10
-      rate: 10
-    - enemyTransform: {fileID: 5264678612224136448, guid: ceb447fbde4ff3c41bba958ed977ce27,
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
         type: 3}
       count: 5
-      rate: 10
-  - name: Rond 2
+      rate: 5
+  - name: Round 2
     enemies:
-    - enemyTransform: {fileID: 5264678612224136448, guid: ceb447fbde4ff3c41bba958ed977ce27,
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 4
+      rate: 3
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
         type: 3}
       count: 20
       rate: 50
-    - enemyTransform: {fileID: 8853025302969875217, guid: 5275b577d4838884abdc02506ab68a97,
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
         type: 3}
       count: 5
       rate: 20
-  timeBetweenWaves: 5
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  - name: Round 2
+    enemies:
+    - enemyTransform: {fileID: 21771818521316019, guid: 129192a28b2f9d542a1dc72955e349ad,
+        type: 3}
+      count: 20
+      rate: 50
+    - enemyTransform: {fileID: 7124372136725968776, guid: 807774761acdede47ba44a89e973555f,
+        type: 3}
+      count: 5
+      rate: 20
+  timeBetweenWaves: 20
   waveCountdown: 0

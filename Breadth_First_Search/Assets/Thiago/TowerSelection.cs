@@ -9,6 +9,10 @@ public class TowerSelection : MonoBehaviour
     
     public GamerManager GM;
 
+    public SphereCollider sc;
+
+    public GameObject buildSound;
+
     [SerializeField] private int tower1Cost = 3;
     [SerializeField] private int tower2Cost = 5;
     
@@ -31,6 +35,7 @@ public class TowerSelection : MonoBehaviour
     
     private void Start()
     {
+        sc = GetComponent<SphereCollider>();
         UpdateTowerButtonState();
     }
     private void OnTriggerEnter(Collider other)
@@ -61,6 +66,7 @@ public class TowerSelection : MonoBehaviour
         {
             if (currentObject != null)
             {
+                
                 Destroy(currentObject);
             }
 
@@ -70,6 +76,8 @@ public class TowerSelection : MonoBehaviour
             UpdateTowerButtonState();
             ShakeCamera();
             PlayBuildParticles();
+            sc.isTrigger = false;
+            Instantiate(buildSound);
         }
     }
 
@@ -88,6 +96,8 @@ public class TowerSelection : MonoBehaviour
             UpdateTowerButtonState();
             ShakeCamera();
             PlayBuildParticles();
+            sc.isTrigger = false;
+            Instantiate(buildSound);
         }
 
     }

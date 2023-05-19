@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6754465684210037699}
   - component: {fileID: 2230716468624547485}
   - component: {fileID: 6557772363812286475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,8 +101,13 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   pathBlockPrefab: {fileID: 1903388687898141879, guid: 5b2f2bbfb601608458e0cd33bc0f7cc0,
     type: 3}
+  IsPathChanger: 0
+  BreakSound: {fileID: 7755194817899982469, guid: 457244c8824074243a2e45a48d836762,
+    type: 3}
   breakParticlesPrefab: {fileID: 2759264636882682901, guid: f2ae1a12a7340e247a42893b6f8579fc,
     type: 3}
+  _pathFinder: {fileID: 0}
+  _pathIndex: 0
 --- !u!65 &6557772363812286475
 BoxCollider:
   m_ObjectHideFlags: 0

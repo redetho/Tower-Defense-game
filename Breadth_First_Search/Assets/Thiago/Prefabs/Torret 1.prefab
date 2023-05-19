@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1985494398}
   m_Layer: 6
   m_Name: Torret 1
-  m_TagString: Enemies
+  m_TagString: Torret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDetected: 0
   detectorOrigin: {fileID: 0}
-  detectorSize: {x: 1, y: 1, z: 1}
+  detectorSize: {x: 50, y: 1, z: 1}
   detectorOriginOffset: {x: 0, y: 0, z: 0}
   detectionDelay: 0.3
   detectorLayerMask:
